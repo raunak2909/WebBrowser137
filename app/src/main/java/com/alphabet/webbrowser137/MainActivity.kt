@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
+        //to search in web_view
         binding.imgSearch.setOnClickListener {
             val mQuery = binding.edtSearch.text.toString()
 
